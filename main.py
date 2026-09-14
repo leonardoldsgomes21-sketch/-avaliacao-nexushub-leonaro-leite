@@ -23,6 +23,7 @@ print("Bancada S1:", bancadas[1][0])
 print("Bancada S2:", bancadas[1][1])
 print("Legenda: 1 = Ocupado e 0 = Livre")
 
+#Etapa 4: Elaboração do Prompt para Painel e Cálculo Final
 with open("custos_cloud.csv", "r", encoding="utf-8") as arquivo:
 	linha_cabecalho = arquivo.readline()
 	linha_dado_1 = arquivo.readline()
