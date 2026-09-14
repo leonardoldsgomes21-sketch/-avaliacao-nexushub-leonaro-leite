@@ -23,3 +23,16 @@ print("Bancada S1:", bancadas[1][0])
 print("Bancada S2:", bancadas[1][1])
 print("Legenda: 1 = Ocupado e 0 = Livre")
 
+with open("custos_cloud.csv", "r", encoding="utf-8") as arquivo:
+	linha_cabecalho = arquivo.readline()
+	linha_dado_1 = arquivo.readline()
+	linha_dado_2 = arquivo.readline()
+	linha_dado_3 = arquivo.readline()
+	linha_dado_4 = arquivo.readline()
+
+print(linha_cabecalho, end="")
+print(linha_dado_1, end="")
+print(linha_dado_2, end="")
+print(linha_dado_3, end="")
+print(linha_dado_4, end="")
+
